@@ -1037,7 +1037,7 @@ break
        
         case 'owner':
         case 'ownerbot':        
-        if (isBanned) return freply(mess.banned)
+       
                sendKontak(from, `${nomorowner}`, `${namaowner}`, 'Sibukk!!')
                await sleep(1000)
                txtt =`*Hai Kak* ${pushname}\nItu Ownerku, Mau Ngpain Yaa?`
@@ -1743,7 +1743,7 @@ break
 ┃╠> ${prefix}darkjoke
 ┃╚═════════════════✪
 ┗━━━「 BOT-WHATSAPP 」━━━⭓`
-               buttons = [{buttonId: `${prefix}infobot`,buttonText:{displayText: 'ɪɴғᴏʙᴏᴛ'},type:1},{buttonId: `${prefix}donasi`,buttonText:{displayText: 'ᴅᴏɴᴀsɪ'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ᴏᴡɴᴇʀ'},type:1}]
+               buttons = [{buttonId: `${prefix}infobot`,buttonText:{displayText: 'ɪɴғᴏʙᴏᴛ'},type:1},{buttonId: `${prefix}owner`,buttonText:{displayText: 'ᴏᴡɴᴇʀ'},type:1}]
 
                imageMsg = (await Ramdani.prepareMessageMedia(fs.readFileSync(`./media/foto/menu.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/foto/menu.jpg`)})).imageMessage
 
@@ -5598,11 +5598,11 @@ break
               textImg(`${runtime(process.uptime())}`)
               break
        case 'dev': 
-if (isBanned) return freply(mess.banned)
+
               freply(`*DEVOLOPER BOT🗿 :*\n https://wa.me/18054105292`)
               break
               case 'github': 
-if (isBanned) return freply(mess.banned)
+
               freply(`*GITHUB DEVOLOPER🗿 :*\n https://wa.me/github.com/Aztecs444`)
               break
 case 'y': 
