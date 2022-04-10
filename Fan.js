@@ -5603,7 +5603,7 @@ break
               break
               case 'github': 
 
-              freply(`*GITHUB DEVOLOPER🗿 :*\n https://wa.me/github.com/Aztecs444`)
+              freply(`*GITHUB DEVOLOPER🗿 :*\n https://github.com/Aztecs444`)
               break
 case 'y': 
 
